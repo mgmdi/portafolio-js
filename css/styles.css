@@ -143,3 +143,13 @@ body{
     font-size: 15px;
     text-align: justify;
 }
+
+form input[type="text"],
+form input[type="password"],
+for input[type="email"]{
+    padding: 5px;
+    border-radius: 2px;
+    border: 1px solid #ccc;
+    width: 80%;
+
+}
