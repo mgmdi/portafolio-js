@@ -10,14 +10,15 @@
         <link id="theme" rel="stylesheet" type="text/css" href="css/green.css" />
         <!--jQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <!--Cargando jQuery-UI-->
+        <link rel="stylesheet" href="js/jquery-ui-1.12.1/jquery-ui.min.css" />
+        <link rel="stylesheet" href="js/jquery-ui-1.12.1/jquery-ui.structure.min.css" />
+        <link rel="stylesheet" href="js/jquery-ui-1.12.1/jquery-ui.theme.min.css" />
+        <script type="text/javascript" src="js/jquery-ui-1.12.1/jquery-ui.min.js"></script>
         <!--Scripts JavaScript-->
         <script type="text/JavaScript" src="js/main.js"></script>
-        <!--Slider-->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
-        <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
-        <!--Moment-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/locale/es.js"></script>
+
+        
     </head>
 
     <body>
@@ -57,22 +58,39 @@
                 </nav>
 
             </header>
-            <!--SLIDER-->
-
-            <div id="slider">
-                <div class="bxslider">
-                    <div><img src="img/hojas.jpg" title="Hojas"></div>
-                    <div><img src="img/rojo.jpg" title="The long and winding road"></div>
-                    <div><img src="img/cielo.jpg" title="Happy sky"></div>
-                </div>
-
-            </div>
 
             <!--Contenido-->
             <section id="content">
-                <div id="posts">
-                    
-                    <!--Cargo post desde json-->
+                <div id="box">
+                    <h2>Sobre mi</h2>
+                    <!--Cargo el acordeon-->
+                    <div id="acordeon">
+                        <h3>Quienes somos?</h3>
+                        <div>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec enim fermentum purus 
+                                suscipit rhoncus at vitae libero. Nullam ullamcorper felis lacus, id vestibulum justo tristique 
+                                sed.
+                            </p>
+                        </div>
+                        <h3>Nuestros servicios</h3>
+                        <div>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec enim fermentum purus 
+                                suscipit rhoncus at vitae libero. Nullam ullamcorper felis lacus, id vestibulum justo tristique 
+                                sed.
+                            </p>
+                        </div>
+                        <h3>Nuestros clientes?</h3>
+                        <div>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec enim fermentum purus 
+                                suscipit rhoncus at vitae libero. Nullam ullamcorper felis lacus, id vestibulum justo tristique 
+                                sed.
+                            </p>
+                        </div>
+
+                    </div>
 
                 </div>
 

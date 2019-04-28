@@ -77,9 +77,10 @@ body{
 .post{
     padding: 7px;
 }
-.post h2{
+h2{
     font-size: 30px;
     color: #333;
+    font-family: Helvetica, Arial;
 
 }
 
@@ -216,4 +217,22 @@ footer{
 
 #to-blue{
     background:#1f87c4;
+}
+
+.subir{
+    color: white;
+    text-decoration: none;
+    display: block;
+    float: right;
+}
+
+#box{
+    width: 60%;
+    margin-left: 24px;
+    float: left;
+    margin-top: 48px;
+}
+
+#acordeon{
+    margin-top: 20px;
 }
