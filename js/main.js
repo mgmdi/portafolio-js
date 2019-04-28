@@ -107,7 +107,13 @@ $(document).ready(function(){
     if(window.location.href.indexOf('reloj') > -1){
         //var reloj = moment().format('h:mm:ss');
         //$("#reloj").html(reloj);
-        $('#clock_hou').jClocksGMT({ title: 'Houston, TX, USA', offset: '-6', skin: 2 });
+        // Hacerlo con setInterval (repetir una funcion cada cierto tiempo)
+        setInterval(function(){
+            var reloj = moment().format('h:mm:ss');
+            $("#reloj").html(reloj);
+        },1000);
+        
+        //$('#clock_hou').jClocksGMT({ title: 'Houston, TX, USA', offset: '-6', skin: 2 });
     };
     
 });
