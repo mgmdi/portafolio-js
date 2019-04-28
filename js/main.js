@@ -115,5 +115,14 @@ $(document).ready(function(){
         
         //$('#clock_hou').jClocksGMT({ title: 'Houston, TX, USA', offset: '-6', skin: 2 });
     };
-    
+    // Validacion
+    if(window.location.href.indexOf('contact') > -1){
+        $("form input[name='date']").datepicker({
+            dateFormat: 'dd/mm/yy'
+        });
+        $.validate({
+            lang: "es"
+        });
+    };
+        
 });
