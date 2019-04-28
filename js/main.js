@@ -103,5 +103,11 @@ $(document).ready(function(){
     if(window.location.href.indexOf('about') > -1){
         $("#acordeon").accordion();
     };
+
+    if(window.location.href.indexOf('reloj') > -1){
+        //var reloj = moment().format('h:mm:ss');
+        //$("#reloj").html(reloj);
+        $('#clock_hou').jClocksGMT({ title: 'Houston, TX, USA', offset: '-6', skin: 2 });
+    };
     
 });
